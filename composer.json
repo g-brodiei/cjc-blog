@@ -25,6 +25,8 @@
         "drupal/gin": "^3.0@RC",
         "drupal/gin_login": "^2.0",
         "drupal/gin_toolbar": "^1.0@RC",
+        "drupal/language_switcher_extended": "^1.1",
+        "drupal/scroll_top_button": "^2.0",
         "drush/drush": "^11.4.0",
         "vlucas/phpdotenv": "^5.1",
         "webflo/drupal-finder": "^1.2"

@@ -3,7 +3,7 @@ langcode: zh-hant
 status: true
 dependencies: {  }
 id: zh-hant
-label: ZH
+label: 繁體
 direction: ltr
 weight: 1
 locked: false
