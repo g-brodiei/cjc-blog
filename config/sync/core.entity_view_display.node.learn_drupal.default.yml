@@ -1,0 +1,29 @@
+uuid: 7ce06ecf-0b95-4a9e-8d6a-054ac117ce84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.learn_drupal.body
+    - node.type.learn_drupal
+  module:
+    - text
+    - user
+id: node.learn_drupal.default
+targetEntityType: node
+bundle: learn_drupal
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

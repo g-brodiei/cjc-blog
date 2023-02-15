@@ -1,0 +1,18 @@
+uuid: 3cb350f0-a3ad-48e9-a277-ea277e00deae
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.works
+id: node.works.title
+field_name: title
+entity_type: node
+bundle: works
+label: 'Project Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

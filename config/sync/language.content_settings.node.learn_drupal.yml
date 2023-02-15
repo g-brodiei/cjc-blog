@@ -1,0 +1,11 @@
+uuid: c817fa30-3814-4b8e-a147-848b6c94fc15
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.learn_drupal
+id: node.learn_drupal
+target_entity_type_id: node
+target_bundle: learn_drupal
+default_langcode: site_default
+language_alterable: false
