@@ -1,4 +1,4 @@
-label: 名詞解釋
+label: 內容目錄
 display:
   default:
     display_title: 預設
@@ -32,4 +32,4 @@ display:
     display_title: 頁面
     display_options:
       menu:
-        title: 名詞解釋
+        title: 內容目錄
