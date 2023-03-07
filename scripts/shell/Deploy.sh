@@ -6,9 +6,7 @@ if [ "$PROD_ENVIRONMENT" = true ]; then
 
   # Wait for the database connection
   echo "Waiting for database connection..."
-  until drush sql-connect > /dev/null 2>&1; do
-    sleep 1
-  done
+  /app/scripts/shell/wait-for-it.sh -t 60 clenrzrww0022qy9bvkq44on6:3306 || exit 1
   echo "Database connection established."
 
   # Run the deploy command
